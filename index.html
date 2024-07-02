@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Introduction</title>
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+
+    <script src="script.js" ></script>
+
+</head>
+<body>
+    <h1>Welcome to Javascript</h1>
+    <p>Showcasing javascript fundamental and basic skills</p>
+
+    <div>
+        <label for="num1">Number 1:</label>
+        <input type="number" id="num1">
+    </div>
+    <div>
+        <label for="num2">Number 2:</label>
+        <input type="number" id="num2">
+    </div>
+
+    <!-- Buttons to perform arithmetic operations -->
+    <div>
+        <button id="addBtn">Add</button>
+        <button id="subtractBtn">Subtract</button>
+        <button id="divideBtn">Divide</button>
+        <button id="multiplyBtn">Multiply</button>
+    </div>
+
+    <!-- Display result -->
+    <div id="result" class="hidden">
+        <h2>Result:</h2>
+        <p id="resultText"></p>
+    </div>
+
+    <!-- Toggle visibility of an element -->
+    <div>
+        <button id="toggleBtn">Toggle Visibility</button>
+    </div>
+    <div id="toggleElement">
+        <p>This is a toggleable element.</p>
+    </div>
+
+    <div>
+        <canvas id="myChart" width="400" height="400"></canvas>
+    </div>
+
+    <!-- Script tags for Chart.js and custom script -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
